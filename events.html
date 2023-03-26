@@ -31,6 +31,10 @@
             margin-top: 10px;
         }
     }
+
+    .myTT{
+        text-decoration: none;
+    }
     </style>
 </head>
 <body>
@@ -58,6 +62,7 @@
         <div class="filter">
             <p class="filter-name">Filter</p>
             <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+            <input type="text" id="myInput1" onkeyup="myFunction1()" placeholder="Search for host.." title="Type in a name">
         </div>
         <div class="table">
             <table>
@@ -73,7 +78,7 @@
                     <td>07.01.23</td>
                     <td>comedy</td>
                     <td>Ha Ha Comedy</td>
-                    <td>JNU</td>
+                    <td class="oi">JNU</td>
                 </tr>
                                  
                 <tr>
@@ -81,7 +86,7 @@
                     <td>07.01.23</td>
                     <td>Music</td>
                     <td>The First Beat</td>
-                    <td>Sword fish</td>
+                    <td class="oi">Sword fish</td>
                 </tr>
  
                 <tr>
@@ -89,7 +94,7 @@
                     <td>23.04.23</td>
                     <td>Standup</td>
                     <td>Jokes surf</td>
-                    <td>Swati</td>
+                    <td class="oi">Swati</td>
                 </tr>
 
                 <tr>
@@ -97,7 +102,7 @@
                     <td>05.05.23</td>
                     <td>Health</td>
                     <td>Nirvana Flow</td>
-                    <td>Sea world</td>
+                    <td class="oi">Sea world</td>
                 </tr>
 
                 <tr>
@@ -105,7 +110,7 @@
                     <td>08.09.23</td>
                     <td>Sport</td>
                     <td>Sons of Bishop</td>
-                    <td>Chess India</td>
+                    <td class="oi">Chess India</td>
                 </tr>
 
 
@@ -114,7 +119,7 @@
                     <td>23.04.23</td>
                     <td>Art</Art></td>
                     <td>Art lab: USA</td>
-                    <td>Crayon Dreams</td>
+                    <td class="oi">Crayon Dreams</td>
                 </tr>
                 
                 <tr>
@@ -124,7 +129,7 @@
                     <td>28.03.23</td>
                     <td>Devonational</td>
                     <td>Truth India</td>
-                    <td>The Sacred Pathway</td>
+                    <td class="oi">The Sacred Pathway</td>
                 </tr>
 
                 <tr>
@@ -134,7 +139,7 @@
                     <td>09.04.23</td>
                     <td>workshop</td>
                     <td>Brushstrokes</td>
-                    <td>Royal Art</td>
+                    <td class="oi">Royal Art</td>
                 </tr>
 
                 <tr>
@@ -144,7 +149,7 @@
                     <td>26.03.23</td>
                     <td>Cenimatic</td>
                     <td>Nashville</td>
-                    <td>Date Restro</td>
+                    <td class="oi">Date Restro</td>
                 </tr>
 
                 <tr>
@@ -154,7 +159,7 @@
                     <td>09.05.23</td>
                     <td>Motivational</td>
                     <td>Bloomers</td>
-                    <td>Jay Shetty </td>
+                    <td class="oi">Jay Shetty </td>
                 </tr>
 
 
@@ -211,6 +216,23 @@
                 x[i].style.display="list-item";                 
             }
          }
+        }
+    </script>
+
+    <script>
+        function myFunction1() {
+        let input = document.getElementById('myInput1').value
+        input=input.toUpperCase();
+        let x = document.getElementsByClassName('oi');
+        
+        for (i = 0; i < x.length; i++) { 
+            if (!x[i].innerHTML.toUpperCase().includes(input)) {
+                x[i].style.display="none";
+            }
+            else {
+                x[i].style.display="list-item";                 
+            }
+        }
         }
     </script>
 </body>

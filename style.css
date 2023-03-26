@@ -198,6 +198,9 @@ header li{
 .text3{
   font-size: 65px;
   margin-left: 216px;
+  background: linear-gradient(to right, #017CF0,#072e5233);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .hero3 .table{
@@ -506,6 +509,17 @@ button .hero23links:hover::after {
 
 }
 
+#myInput1 {
+  height: 30px;
+  margin-left: 102px;
+  margin-top: 90px;
+  border-radius: 8px;
+  padding-inline-start: 10px;
+  border-color: none;
+  color: black;
+
+}
+
 
 @media (max-width: 1245px) {
   .mobile-navbar-btn {
@@ -749,11 +763,39 @@ button .hero23links:hover::after {
       margin-left: 50px;
   }
 
+  /* div.filter{
+      flex-direction: column;
+  }
+
+  #myInput{
+      width: 30%;
+  } */
+
+}
+
+@media (max-width: 456px) {
+
+  #myInput{
+      width: 20%;
+  }
+
+  #myInput1{
+      width: 20%;
+  }
+
+}
+
+@media (max-width: 889px) {
+
   div.filter{
       flex-direction: column;
   }
 
   #myInput{
+      width: 30%;
+  }
+
+  #myInput1{
       width: 30%;
   }
 
