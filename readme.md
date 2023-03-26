@@ -3,7 +3,7 @@
 
 Event Web Prodigy is a website that provides comprehensive information about academic events happening around India. The website is a one-stop-shop for students who are looking for  conferences, seminars, workshops, motivational sessions, standup comedy shows, Musical nights etc.
 
-Each event listing on Event Web Prodigy includes essential details such as the event name, date, type of event, subevents . Users can also find information about the organizers. Additionally, the website provides links to the event website, registration page, and social media accounts .
+Each event listing on Event Web Prodigy includes essential details such as the event name, date, type of event, subevents . Users can also find information about the organizers. Additionally, the website provides links to the event website, registration page, and social media accounts . Our website includes a search bar that allows users to filter out events based on their preferences, such as names or host of the event type.
 
 
 
