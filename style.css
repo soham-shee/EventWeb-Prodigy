@@ -200,6 +200,7 @@ header li{
   margin-left: 216px;
   background: linear-gradient(to right, #017CF0,#072e5233);
   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .hero3 .table{
