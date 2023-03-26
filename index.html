@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">  
+    
+    <!-- scripts for icons -->
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+     ></script>
+    <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>EventWeb Prodigy|Home</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo"><a href="index.html">EventWeb.</a></h1>
+        <div class="links">
+            <ul>
+                <li class="fl"><a href="events.html">Events</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </div>
+        <div class="temp-links">
+            <li class="fl"><a href="events.html">Events</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+        </div>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+        
+    </header>
+    <!-- hero -->
+    <div class="hero">
+        <div class="herobox">
+            <img src="img/hero-1.jpg" width="18px" class="img1" alt="">
+            <p class="text">EventWeb Prodigy is a website that provides information about various student events happening across India. The website is designed to help students stay updated with the latest events in their area and provide a platform for event organizers to promote their events and  valuable resource for students looking to stay engaged.</p>
+        </div>
+        <div class="join">
+            <p>find your next event</p><img src="img/dot.png" class="dot" alt=""><button class="linki"><a class="linkto" href="events.html">events</a></button>
+        </div>
+    </div>
+    <!-- hero2 -->
+    <div class="hero2">
+        <div class="hero21">
+            <p class="events21">Events</p>
+        </div>
+        <div class="hero22">
+            <p class="eventspara">Student events are a vibrant and exciting part of campus life that offer endless opportunities for students to learn, grow, and have fun. Some upcoming events are listed below :</p>
+        </div>
+        <div class="hero23">
+            <button class="hero23links"><a href="pages/trending1.html" class="linkto">#1 Trending</a></button>
+            <button class="hero23links"><a href="pages/trending2.html" class="linkto">#2 Trending</a></button>
+            <button class="hero23links"><a href="pages/trending3.html" class="linkto">#3 Trending</a></button>
+        </div>
+    </div>
+    <!-- hero3 -->
+    <div class="hero3">
+        <div class="texth3">
+            <p class="text3">Upcoming<br>Events</p>
+        </div>
+        <div class="table">
+            <table>
+                <tr class="first">
+                    <th>Event Name</th>
+                    <th>Date</th>
+                    <th>Type</th>
+                    <th>Host</th>
+                </tr>
+                <tr>
+                    <td><a href="pages/1.html">Backstreet boys</a></td>
+                    <td>07.01.23</td>
+                    <td>comedy</td>
+                    <td>JNU</td>
+                </tr>
+                <tr>
+                    <td><a href="pages/2.html">Echos of earth</a></td>
+                    <td>07.01.23</td>
+                    <td>Music</td>
+                    <td>Sword fish</td>
+                </tr>
+                <tr>
+                    <td><a href="pages/3.html">So rude of me</a></td>
+                    <td>23.04.23</td>
+                    <td>Standup</td>
+                    <td>Vipul</td>
+                </tr>
+                <tr>
+                    <td><a href="pages/4.html">Yoga on boat</a></td>
+                    <td>05.05.23</td>
+                    <td>Health</td>
+                    <td>Sea world</td>
+                </tr>
+                <tr>
+                    <td><a href="pages/5.html">Brain chess</a></td>
+                    <td>08.09.23</td>
+                    <td>Sport</td>
+                    <td>Chess India</td>
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        © <a href="index.html">EventWeb Prodigy 2023</a>
+    </div>
+
+    <script>
+        const mobile_nav = document.querySelector(".mobile-navbar-btn");
+        const nav_header = document.querySelector("header");
+
+        const toggleNavbar = () => {
+        nav_header.classList.toggle("active");
+        };
+
+        mobile_nav.addEventListener("click", () => toggleNavbar());
+    </script>
+</body>
+</html>

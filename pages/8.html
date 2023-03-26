@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="../style.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+     <!-- scripts for icons -->
+     <script
+     type="module"
+     src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+     <script
+     nomodule
+     src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+     ></script>
+     <style>
+        @media (max-width: 1160px) {
+              .hero{
+                  margin-left: 10px;
+                  margin-right: 10px;
+                  height: auto;
+
+              }
+
+
+          }
+  </style>
+    <title>EventWeb Prodigy|Events</title>
+</head>
+<body>
+    <header class="header">
+        <!-- <nav class="navbar"> -->
+        <h1 class="logo"><a href="../index.html">EventWeb.</a></h1>
+        <div class="links">
+            <ul>
+                <li class="fl"><a href="../events.html">Events</a></li>
+                <li><a href="../aboutus.html">About Us</a></li>
+            </ul>
+        </div>
+
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    <!-- </nav> -->
+    </header>
+    <!-- hero -->
+    <div class="hero">
+        <div class="heroboxa">
+            <img src="../img/pg8.jpeg" class="img1au" alt="">
+        </div>
+        <div class="joini">
+            <marquee behavior="" direction=""><span class="roll"><p>events info</p><button class="linki"><a class="linkto" href="https://in.bookmyshow.com/events/brushstrokes-and-giggles/ET00355257">events</a></button></span></marquee>
+
+        </div>
+    </div>
+    <div class="para">
+        <p class="eventwebdata">
+                            Join us for an afternoon of good food and good vibes, and paint your worries away! Learn new painting techniques under personal guidance, and paint your own masterpiece. So put on your creative caps and get ready to be a maestro for the day!
+
+    </div>
+
+    <!-- footer -->
+    <div class="footeri">
+        © <a href="../index.html">EventWeb Prodigy 2023</a>
+    </div>
+
+    <script>
+        const mobile_nav = document.querySelector(".mobile-navbar-btn");
+        const nav_header = document.querySelector("header");
+
+        const toggleNavbar = () => {
+        nav_header.classList.toggle("active");
+        };
+
+        mobile_nav.addEventListener("click", () => toggleNavbar());
+    </script>
+
+</body>
+</html>
