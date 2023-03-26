@@ -293,6 +293,12 @@ table thead{
 
 table a{
   text-decoration: none;
+  list-style: none;
+}
+
+table .oi{
+  text-decoration: none;
+  list-style: none;
 }
 
 .first{
