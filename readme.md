@@ -8,9 +8,11 @@ Each event listing on Event Web Prodigy includes essential details such as the e
 
 
 
-## Tech Used
+## TechStack Used
 
 HTML, CSS and Javascript
+
+
 ## Features 
 
 
@@ -18,11 +20,13 @@ EventWeb Prodigy provides :
 
 
 
-Detailed event information: We provide detailed information on each event, including the date, time, location, host, and subevents.
+Detailed event information: We provide detailed information on each event, including the date, host, and subevents.
 
-User accounts: Users can create an account on our website to save events they're interested in attending, and receive updates on those events.
+Search bar: Our website includes a search bar that allows users to filter out events based on their preferences, such as name or event organizer.
 
-Mobile-friendly: Our website is designed to be mobile-friendly, so users can access the information they need from their smartphones or tablets
+Mobile-friendly: Our website is designed to be user-friendly, so users can access the information they need from their smartphones or tablets.
+
+
 ## Authors
 
 - [@Akkaldevi Saivinayak](https://www.github.com/riskyhomo)
