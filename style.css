@@ -489,6 +489,24 @@ th,td{
   .temp-links{
     display: none;
   }
+
+  .filter{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #myInput {
+    height: 30px;
+    margin-left: 102px;
+    margin-top: 90px;
+    border-radius: 8px;
+    padding-inline-start: 10px;
+    border-color: none;
+    color: black;
+
+  }
+
+
   @media (max-width: 1245px) {
     .mobile-navbar-btn {
       display: block;
@@ -729,6 +747,14 @@ th,td{
         font-size: 24px;
         margin-top: 68px;
         margin-left: 50px;
+    }
+
+    div.filter{
+        flex-direction: column;
+    }
+
+    #myInput{
+        width: 30%;
     }
 
   }
@@ -973,7 +999,7 @@ th,td{
   @media (max-width: 541px) {
     .table tr,td{
         font-size: 18px;
-        margin-left: 20%;
+        margin-left: 15%;
         padding: 0;
         margin-top: 0;
     }
@@ -1029,6 +1055,15 @@ th,td{
         white-space: nowrap;
         margin-right: 100%;
     }
+  }
+
+  @media (max-width: 558px) {
+    .logo{
+        font-size: 24px;
+        margin-top: 68px;
+        margin-left: 50px;
+    }
+
   }
 
 
